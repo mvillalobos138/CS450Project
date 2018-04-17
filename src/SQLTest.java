@@ -16,20 +16,7 @@ public class SQLTest {
 		
 		pw.close();
 		
-//		for(int i = 1; i<= 12; i++) {
-//			if(i == 1 || i == 3 || i == 5 || i == 7 || i == 8 || i == 10 || i == 12)
-//				for(int j = 1; j <= 31; j++) {
-//					pw.printf("insert into Date_List values ('%02d/%02d/2018');\n", i,j);
-//				}
-//			else if(i == 4 || i == 6 || i == 9 || i == 11)
-//				for(int j = 1; j <= 30; j++) {
-//					pw.printf("insert into Date_List values ('%02d/%02d/2018');\n", i,j);
-//				}
-//			else
-//				for(int j = 1; j <= 28; j++) {
-//					pw.printf("insert into Date_List values ('%02d/%02d/2018');\n", i,j);
-//				}
-//		}
+
 	}
 	
 	public static String getHotel(int i) {
